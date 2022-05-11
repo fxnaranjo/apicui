@@ -1,0 +1,49 @@
+.request-api {
+  margin-bottom: 1rem;
+  .form {
+    display: flex;
+    margin-bottom: 1rem;
+    position: relative;
+    .method {
+      label {
+        display: none;
+      }
+      .bx--select-input {
+        height: 3rem;
+      }
+    }
+    .bx--form-item:not(.bx--text-input-wrapper) {
+      flex: initial;
+    }
+    .bx--text-input {
+      height: 3rem;
+    }
+  }
+  .request-info {
+    margin-bottom: 1rem;
+    display: flex;
+    .message {
+      margin-left: 1rem;
+    }
+  }
+  .payload {
+    margin-bottom: 2rem;
+    p {
+      margin-bottom: 0.5rem;
+    }
+    .bx--snippet--single {
+      max-width: 100%;
+      margin-bottom: 1rem;
+    }
+  }
+  .status-code {
+    display: flex;
+    .icon {
+      height: 15px;
+      width: 15px;
+      display: inline-block;
+      border-radius: 50%;
+      margin-right: 0.5rem;
+    }
+  }
+}

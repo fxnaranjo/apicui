@@ -1,0 +1,25 @@
+.timer {
+  display: flex;
+  margin-bottom: 1rem;
+  .ctimer {
+    flex: 1;
+    align-items: center;
+    display: flex;
+    padding: 0 1rem;
+    position: relative;
+    .icon {
+      margin-right: 1rem;
+      z-index: 1;
+    }
+    .time {
+      z-index: 1;
+    }
+  }
+  .progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 0;
+  }
+}

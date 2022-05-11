@@ -1,0 +1,13 @@
+.app {
+  margin-top: 3rem;
+  padding: 3rem;
+  .bx--text-input:disabled {
+    color: rgba(255,255,255,.7);
+  }
+  .site-information {
+    .bx--btn,
+    .bx--form-item {
+      margin-bottom: 1rem;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.information {
+  margin-bottom: 1rem;
+  .description {
+    margin-bottom: 1rem;
+    opacity: 0.5;
+  }
+  .cinformation {
+    display: flex;
+    .step {
+      line-height: 30px;
+      height: 30px;
+      width: 30px;
+      text-align: center;
+      margin-right: 10px;
+    }
+  }
+}
